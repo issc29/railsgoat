@@ -28,6 +28,9 @@ gem "therubyracer"
 gem "turbolinks"
 gem "uglifier"
 gem "unicorn"
+gem "rubocop"
+gem "code-scanning-rubocop"
+gem "rubocop-github"
 
 # Add SMTP server support using MailCatcher
 # NOTE: https://github.com/sj26/mailcatcher#bundler
