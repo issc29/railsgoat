@@ -43,7 +43,7 @@ group :development, :mysql do
   gem "pry"
   gem "rack-livereload"
   gem "rb-fsevent"
-  gem "rubocop-github"
+  gem "code-scanning-rubocop", '0.4.0'
   gem "travis-lint"
 end
 
