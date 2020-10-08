@@ -4,7 +4,7 @@ source "https://rubygems.org"
 #don't upgrade
 gem "rails", "6.0.0"
 
-ruby "2.6.5"
+ruby "2.6.6"
 
 gem "aruba"
 gem "bcrypt"
@@ -29,9 +29,7 @@ gem "turbolinks"
 gem "uglifier"
 gem "unicorn"
 gem "rubocop", '0.92.0'
-gem "code-scanning-rubocop"
-gem "rubocop-github"
-#gem "rubocop-github"
+# gem "code-scanning-rubocop"
 
 # Add SMTP server support using MailCatcher
 # NOTE: https://github.com/sj26/mailcatcher#bundler
